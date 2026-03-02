@@ -25,7 +25,7 @@ This is the workflow for Georgia Microbiome analysis across various field locati
 
 These scripts performs rarefaction and calculates alpha diversity metrics (Observed ASVs, Shannon diversity, and Faith’s Phylogenetic Diversity) across sample types, growing degree days, and across field locations. It evaluates normality, applies Kruskal–Wallis and Dunn’s post hoc tests, and generates publication-ready violin/boxplots for comparative diversity analyses.
 
-5c. Alpha diversity for environmental factors, soil chemistry and geography: This script rarefies phyloseq datasets and evaluates alpha diversity (Observed richness, Shannon, and Faith’s PD) across soil, rhizosphere, root, and stalk samples. It applies generalized linear models (GLMs) to test relationships between microbial diversity and environmental variables (climate, geography) as well as detailed soil physicochemical properties.
+5c. Alpha diversity for environmental factors, soil chemistry and geography: This script rarefies phyloseq datasets and evaluates alpha diversity (Observed richness, Shannon, and Faith’s PD) across soil, rhizosphere, root, and stalk samples. It applies generalized linear models (GLMs) to test relationships between microbial diversity and environmental variables (climate, geography) as well as detailed soil chemical properties.
 
 6. Beta Diversity: This script computes beta diversity using weighted UniFrac distances and performs PCoA ordination across all sample types and within each tissue type. It visualizes microbial community differences by sample type and growing degree days (GDD).
    
