@@ -21,6 +21,7 @@ This is the workflow for Georgia Microbiome analysis across various field locati
 **Diversity metrics** 
 
 5a. Alpha diversity for sample types
+
 5b. Alpha diversity Location
 
 These scripts performs rarefaction and calculates alpha diversity metrics (Observed ASVs, Shannon diversity, and Faith’s Phylogenetic Diversity) across sample types, growing degree days, and across field locations. It evaluates normality, applies Kruskal–Wallis and Dunn’s post hoc tests, and generates publication-ready violin/boxplots for comparative diversity analyses.
@@ -35,10 +36,15 @@ These scripts performs rarefaction and calculates alpha diversity metrics (Obser
 **Assessment of Noise in Microbiome Sampling**
 
 8a. Noise_assessment_functions
+
 8b. Noise_assessment_soil
+
 8c. Noise_assessment_rhizosphere
+
 8d. Noise_assessment_root
+
 8e. Noise_assessment_stalk
+
 8f. Generate_all_figures for noise assessment
 
 These scripts defines a universal noise assessment framework for microbiome data, evaluating alpha and beta diversity variability within complete location–GDD sample pairs. It performs rarefaction, computes diversity-based noise metrics (including within-pair UniFrac distances), compares against random expectations, generates PCoA coordinates, and exports comprehensive summary outputs for reproducible quality assessment.
@@ -54,6 +60,7 @@ These scripts defines a universal noise assessment framework for microbiome data
 **Differential abundance analysis of taxa**
 
 12a. Differential abundance analysis-class level
+
 12b. Differential abundance analysis - volcano plot genus level
 
 These scripts performs differential abundance analysis using DESeq2 to identify bacterial classes and genus significantly enriched between 600 and 1400 Growing Degree Days (GDD) across soil, rhizosphere, root, and stalk compartments. The plot were at class and genus level respectively.
@@ -61,5 +68,6 @@ These scripts performs differential abundance analysis using DESeq2 to identify 
 **Network co-occurrence analysis**
 
 13. Network analysis of sample types: This script constructs and compares co-occurrence networks of soil, rhizosphere, root, and stalk microbiomes at 600 and 1400 Growing Degree Days (GDD) using Spearman correlations.
-Metagenomic Prediction of microbial communities
-14. Picrust2 metagenome prediction: This script prepares ASV sequences, OTU tables, and metadata for PICRUSt2 functional pathway prediction, then performs differential pathway abundance analysis (DESeq2-based) across Growing Degree Days (600 vs 1400) and among sample types (Soil, Rhizosphere, Root, Stalk)
+    
+**Metagenomic Prediction of microbial communities**
+15. Picrust2 metagenome prediction: This script prepares ASV sequences, OTU tables, and metadata for PICRUSt2 functional pathway prediction, then performs differential pathway abundance analysis (DESeq2-based) across Growing Degree Days (600 vs 1400) and among sample types (Soil, Rhizosphere, Root, Stalk)
