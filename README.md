@@ -18,7 +18,7 @@ This is the workflow for Georgia Microbiome analysis across various field locati
 
 4.Relative Abundance: This script calculates and visualizes bacterial community composition at the phylum level across sample types and growing degree days using cleaned phyloseq objects.
 
-**Diversity metrics **
+**Diversity metrics** 
 
 5a. Alpha diversity for sample types
 5b. Alpha diversity Location
@@ -58,7 +58,7 @@ These scripts defines a universal noise assessment framework for microbiome data
 
 These scripts performs differential abundance analysis using DESeq2 to identify bacterial classes and genus significantly enriched between 600 and 1400 Growing Degree Days (GDD) across soil, rhizosphere, root, and stalk compartments. The plot were at class and genus level respectively.
 
-**Network co-occurrence analysis **
+**Network co-occurrence analysis**
 
 13. Network analysis of sample types: This script constructs and compares co-occurrence networks of soil, rhizosphere, root, and stalk microbiomes at 600 and 1400 Growing Degree Days (GDD) using Spearman correlations.
 Metagenomic Prediction of microbial communities
