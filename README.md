@@ -52,7 +52,7 @@ These scripts defines a universal noise assessment framework for microbiome data
 
 9. Canonical Correspondence Analysis: This script performs CCA-based ordination to evaluate the influence of environmental variables, soil chemistry, and geographic factors on soil, rhizosphere, and root microbial communities.
     
-10. Mantel Test: This script assesses the relationship between microbial community dissimilarity (weighted UniFrac) and geography, environmental, and soil chemical distance matrices using permutation-based Spearman Mantel tests across soil, rhizosphere, root, and stalk compartments.
+10. Mantel Test: This script assesses the relationship between microbial community dissimilarity (weighted UniFrac) and geography, environmental, and soil chemistry distance matrices using permutation-based Spearman Mantel tests across soil, rhizosphere, root, and stalk compartments.
     
 11. Pearson Correlations between the relative abundance of Individual taxa with environmental factors: This script quantifies pearson correlations between bacterial class-level relative abundances and environmental and soil chemistry variables across soil, rhizosphere, root, and stalk compartments.
 
