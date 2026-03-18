@@ -70,7 +70,5 @@ These scripts performs differential abundance analysis using DESeq2 to identify 
     
 **Metagenomic Prediction of microbial communities**
 
-
-
-15. Picrust2 metagenome prediction: This script prepares ASV sequences, OTU tables, and metadata for PICRUSt2 functional pathway prediction, then performs differential pathway abundance analysis (DESeq2-based) across Growing Degree Days (600 vs 1400) and among sample types (Soil, Rhizosphere, Root, Stalk)
+14.Picrust2 metagenome prediction: This script prepares ASV sequences, OTU tables, and metadata for PICRUSt2 functional pathway prediction, then performs differential pathway abundance analysis (DESeq2-based) across Growing Degree Days (600 vs 1400) and among sample types (Soil, Rhizosphere, Root, Stalk)
       
