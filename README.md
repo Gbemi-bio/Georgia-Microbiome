@@ -1,6 +1,7 @@
 **Georgia Microbiome**
 
 This is the workflow for Georgia Microbiome analysis across various field locations in Georgia. It contains the data output after processing raw data on QIIME2 and the downstream analysis
+
 **File input**
 
 1.Data file input: this script imports raw microbiome data files (metadata, ASV table, taxonomy, FASTA sequences, and phylogenetic tree) into R and formats them for downstream analysis using phyloseq.
