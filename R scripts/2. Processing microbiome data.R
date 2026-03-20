@@ -49,7 +49,7 @@ identical(taxa_names(bac.unedited),rownames(bac.unedited@otu_table))
 
 
 # ========================
-# Perform some  filtering
+# Perform some filtering
 # ========================
 
 #Taxonomy filtering#
@@ -98,7 +98,7 @@ bac_no_chloro_all
 
 
 # =========================================
-# Removing contaminant / decontaminate#
+# Removing contaminant / decontaminate
 # =========================================
 
 sample_data(bac_no_chloro_all)$is.neg <- sample_data(bac_no_chloro_all)$Sample_or_Control == "Control"
@@ -159,10 +159,10 @@ sort(sample_sums(all_samples_non_normalized))
 all_samples_non_normalized <- subset_samples(all_samples_non_normalized, Sample_Type == "Rhizosphere" | Sample_Type == "Root" | Sample_Type == "Soil" | Sample_Type == "Stalk")
 all_samples_non_normalized
 
-#Save in the non normalized ASVs for all sample type together here
+#Save in the non-normalized ASVs for all sample type together here
 saveRDS(all_samples_non_normalized, file = "C:/Aduragbemi/Microbiome/RDs/all_samples_non_normalized.rds")
 
-#Read in the non normalized ASVs for all sample type together here
+#Read in the non-normalized ASVs for all sample type together here
 all_samples_non_normalized <- readRDS(file = "C:/Aduragbemi/Microbiome/RDs/all_samples_non_normalized.rds")
 all_samples_non_normalized
 
@@ -237,7 +237,7 @@ stalk_bac_sub_no_bad_Filtered <- prune_samples(sample_sums(bac_no_chloro_stalk) 
 
 
 # ================================================================================================================================
-# Uncover the variability in number of reads per sample for each sample_type data set
+# Uncover the variability in the number of reads per sample for each sample_type data set
 # Make a data frame of sample sums and sample types, then make violin plot to show distribution of sample sums for each sample type
 # ================================================================================================================================
 
