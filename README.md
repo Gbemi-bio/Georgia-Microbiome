@@ -61,7 +61,7 @@ These scripts defines a universal noise assessment framework for microbiome data
 
 12.Differential abundance analysis - volcano plot genus level
 
-These scripts performs differential abundance analysis using DESeq2 to identify bacterial classes and genus significantly enriched between 600 and 1400 Growing Degree Days (GDD) across soil, rhizosphere, root, and stalk compartments. The plot were at class and genus level respectively.
+This script performs differential abundance analysis using DESeq2 to identify bacterial classes and genus significantly enriched between 600 and 1400 Growing Degree Days (GDD) across soil, rhizosphere, root, and stalk compartments. The plot were at class and genus level respectively.
 
 **Network co-occurrence analysis**
 
